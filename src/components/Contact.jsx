@@ -22,13 +22,11 @@ const Contact = () => {
           <button type="submit">Send</button>
         </form>
         <div className="contact-details">
-          <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-          <p>Phone: <a href="tel:+1234567890">+123 456 7890</a></p>
+          <p>Email: <a href="mailto:yourname@example.com">johnathanchastain435@gmail.com</a></p>
         </div>
         <div className="social-links">
-          <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="https://www.linkedin.com/in/johnathan-chastain-5369302bb/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/JohnathanChastain" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
       </div>
     </section>
