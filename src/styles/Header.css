@@ -1,28 +1,30 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-  }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  background-image: url('src\assets\abstract-black-lines-geometric-background_677411-2748.avif'); 
+  background-size: cover; 
+  background-position: center;
+}
   
-  .logo h1 {
-    margin: 0;
-  }
+.logo h1 {
+  margin: 0;
+}
   
-  .nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-  }
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
   
-  .nav-links li a {
-    color: white;
-    text-decoration: none;
-  }
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
   
-  .nav-links li a:hover {
-    text-decoration: underline;
-  }
-  
+.nav-links li a:hover {
+  text-decoration: underline;
+}
