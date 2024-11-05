@@ -3,19 +3,29 @@ import '../styles/projects.css';
 
 const projects = [
   {
-    name: 'Project One',
-    description: 'This is a web app that allows users to manage tasks efficiently.',
-    technologies: ['React', 'Node.js', 'Express', 'MongoDB'],
-    demoLink: 'http://example.com',
-    codeLink: 'http://github.com/example'
+    name: 'SkyWatch Hub',
+    description: 'This is a web app that allows users to view weather forecasts by location.',
+    technologies: ['Typescript', 'javascript'],
+    // demoLink: 'http://example.com',
+    codeLink: 'https://github.com/JohnathanChastain/SkyWatch-Hub'
   },
+
+  {
+    name: 'RideCraft Master',
+    description: 'This is a command-line applications that allows users to create and manage a list of vehicles.',
+    technologies: ['Typescript'],
+    // demoLink: 'http://example.com',
+    codeLink: 'https://github.com/JohnathanChastain/RideCraft-Master'
+  },
+
   {
     name: 'Project Two',
     description: 'A mobile app that tracks fitness activities and provides analytics.',
     technologies: ['React Native', 'Firebase'],
-    demoLink: 'http://example.com',
+    // demoLink: 'http://example.com',
     codeLink: 'http://github.com/example'
   }
+
 ];
 
 const Projects = () => {
