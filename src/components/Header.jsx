@@ -9,12 +9,12 @@ const Header = () => {
         <h1>Johnathan Chastain</h1>
       </div>
       <nav>
-        <ul className="nav-links">
+        <div className="nav-links">
           <NavLink to="About">About
           <NavLink to="Projects">Projects
           <NavLink to="Skills">Skills
           <NavLink to="Contact">Contact
-        </ul>
+        </div>
       </nav>
     </header>
   );
