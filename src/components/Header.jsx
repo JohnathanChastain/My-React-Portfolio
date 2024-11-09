@@ -1,4 +1,5 @@
 import 'react';
+import { NavLink } from "react-router-dom";
 import '../styles/Header.css'; 
 
 const Header = () => {
@@ -9,10 +10,10 @@ const Header = () => {
       </div>
       <nav>
         <ul className="nav-links">
-          <li><a href="About">About</a></li>
-          <li><a href="Projects">Projects</a></li>
-          <li><a href="Skills">Skills</a></li>
-          <li><a href="Contact">Contact</a></li>
+          <li><NavLink to="About">About</li>
+          <li><NavLink to="Projects">Projects</li>
+          <li><NavLink to="Skills">Skills</li>
+          <li><NavLink to="Contact">Contact></li>
         </ul>
       </nav>
     </header>
