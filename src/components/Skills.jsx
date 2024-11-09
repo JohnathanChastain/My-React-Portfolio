@@ -1,5 +1,5 @@
 import 'react';
-import '../styles/skills.css';
+import '../styles/Skills.css';
 
 const skills = {
   frontend: ['React', 'HTML5', 'CSS', 'JavaScript'],
