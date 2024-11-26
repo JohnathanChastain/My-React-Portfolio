@@ -2,9 +2,9 @@ import 'react';
 import '../styles/Skills.css';
 
 const skills = {
-  frontend: ['React', 'HTML5', 'CSS', 'JavaScript'],
-  backend: ['Node.js', 'Typescript'],
-  tools: ['Git']
+  frontend: [ 'HTML5', 'CSS', 'JavaScript'],
+  backend: ['Node.js', 'Typescript', 'React'],
+  tools: ['Git' , 'VS Code']
 };
 
 const Skills = () => {
